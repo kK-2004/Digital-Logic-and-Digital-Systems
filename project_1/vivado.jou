@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Sun Apr 13 14:32:19 2025
+# Process ID: 30672
+# Current directory: C:/Users/26041/Desktop/Math Logic/Projects/project_1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent23640 C:\Users\26041\Desktop\Math Logic\Projects\project_1\project_1.xpr
+# Log file: C:/Users/26041/Desktop/Math Logic/Projects/project_1/vivado.log
+# Journal file: C:/Users/26041/Desktop/Math Logic/Projects/project_1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/26041/Desktop/Math Logic/Projects/project_1/project_1.xpr}
+update_compile_order -fileset sources_1

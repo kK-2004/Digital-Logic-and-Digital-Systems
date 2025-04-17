@@ -1,0 +1,7 @@
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+Time	A	B	OP	Result (seg)	COUT
+               10000	 20	 35	ADD	1011011 1011011	0
+               20000	100	 45	SUB	1011011 1011011	1
+               30000	 40	100	SUB	1110011 1011111	0
+               40000	200	100	ADD	0110011 0110011	1

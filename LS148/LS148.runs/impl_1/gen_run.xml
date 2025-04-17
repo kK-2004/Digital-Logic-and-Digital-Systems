@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a200tfbg676-1" LaunchTime="1744027647">
+  <File Type="BITSTR-BMM" Name="LS148_bd.bmm"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="LS148_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="LS148_timing_summary_init.rpt"/>
+  <File Type="ROUTE-PWR" Name="LS148_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="LS148.tcl"/>
+  <File Type="OPT-TIMING" Name="LS148_timing_summary_opted.rpt"/>
+  <File Type="OPT-DCP" Name="LS148_opt.dcp"/>
+  <File Type="ROUTE-PWR-SUM" Name="LS148_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="LS148_reports.tcl"/>
+  <File Type="OPT-DRC" Name="LS148_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="LS148.hwdef"/>
+  <File Type="PWROPT-DCP" Name="LS148_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="LS148_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="LS148_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="LS148_placed.dcp"/>
+  <File Type="PLACE-IO" Name="LS148_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="LS148_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="LS148_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="LS148_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="LS148_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="LS148_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="LS148_incremental_reuse_pre_placed.rpt"/>
+  <File Type="BG-BGN" Name="LS148.bgn"/>
+  <File Type="PLACE-TIMING" Name="LS148_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="LS148_postplace_pwropt.dcp"/>
+  <File Type="BG-BIN" Name="LS148.bin"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="LS148_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="LS148_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="LS148_drc_physopted.rpt"/>
+  <File Type="BITSTR-MSK" Name="LS148.msk"/>
+  <File Type="PHYSOPT-TIMING" Name="LS148_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="LS148_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="LS148_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="LS148_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="LS148_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="LS148_drc_routed.pb"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="LS148.ltx"/>
+  <File Type="ROUTE-DRC-RPX" Name="LS148_drc_routed.rpx"/>
+  <File Type="BITSTR-MMI" Name="LS148.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="LS148_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="LS148_methodology_drc_routed.rpx"/>
+  <File Type="BITSTR-SYSDEF" Name="LS148.sysdef"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="LS148_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="LS148_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="LS148_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="LS148_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="LS148_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="LS148_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="LS148_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="LS148_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="LS148_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="LS148_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="LS148_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="LS148_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="LS148_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="LS148_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="LS148_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="LS148_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="LS148_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="LS148_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="LS148_bus_skew_postroute_physopted.pb"/>
+  <File Type="BG-BIT" Name="LS148.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="LS148_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BITSTR-RBT" Name="LS148.rbt"/>
+  <File Type="BITSTR-NKY" Name="LS148.nky"/>
+  <File Type="BG-DRC" Name="LS148.drc"/>
+  <File Type="RDI-RDI" Name="LS148.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/LS148.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="LS148"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018">
+      <Desc>Default settings for Implementation.</Desc>
+    </StratHandle>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

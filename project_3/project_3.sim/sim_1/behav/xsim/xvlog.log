@@ -1,0 +1,12 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/26041/Desktop/Math Logic/Projects/project_3/project_3.srcs/sources_1/new/adder8.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder8
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/26041/Desktop/Math Logic/Projects/project_3/project_3.srcs/sources_1/new/binary2bcd.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module binary2bcd
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/26041/Desktop/Math Logic/Projects/project_3/project_3.srcs/sources_1/new/dpy.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dpy
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/26041/Desktop/Math Logic/Projects/project_3/project_3.srcs/sources_1/new/full_adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module full_adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/26041/Desktop/Math Logic/Projects/project_3/project_3.srcs/sources_1/new/top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/26041/Desktop/Math Logic/Projects/project_3/project_3.srcs/sim_1/new/top_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top_tb

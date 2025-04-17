@@ -1,0 +1,14 @@
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto d8bc4bb40b344d38960ead8f085a1750 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot voter_plus_tb_behav xil_defaultlib.voter_plus_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "C:/Users/26041/Desktop/Math Logic/Projects/project_2/project_2.srcs/sources_1/new/voter_plus.v" Line 1. Module voter_plus doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.voter_plus
+Compiling module xil_defaultlib.voter_plus_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot voter_plus_tb_behav

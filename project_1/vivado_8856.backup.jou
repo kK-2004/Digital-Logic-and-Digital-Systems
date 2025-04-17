@@ -1,0 +1,39 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Wed Mar 26 11:17:19 2025
+# Process ID: 8856
+# Current directory: C:/Users/26041/Desktop/Math Logic/Projects/project_1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent19576 C:\Users\26041\Desktop\Math Logic\Projects\project_1\project_1.xpr
+# Log file: C:/Users/26041/Desktop/Math Logic/Projects/project_1/vivado.log
+# Journal file: C:/Users/26041/Desktop/Math Logic/Projects/project_1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/26041/Desktop/Math Logic/Projects/project_1/project_1.xpr}
+update_compile_order -fileset sources_1
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 10
+wait_on_run impl_1
+open_run impl_1
+synth_design -rtl -name rtl_1
+launch_simulation -install_path D:/modelsim_dlx64_10.6c/win64pe
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 10
+wait_on_run impl_1
+export_ip_user_files -of_objects  [get_files {{C:/Users/26041/Desktop/Math Logic/Projects/project_1/voter_tb.v}}] -no_script -reset -force -quiet
+remove_files  -fileset sim_1 {{C:/Users/26041/Desktop/Math Logic/Projects/project_1/voter_tb.v}}
+export_ip_user_files -of_objects  [get_files {{C:/Users/26041/Desktop/Math Logic/Projects/project_1/voter.v}}] -no_script -reset -force -quiet
+remove_files  {{C:/Users/26041/Desktop/Math Logic/Projects/project_1/voter.v}}
+add_files -norecurse {{C:/Users/26041/Desktop/Math Logic/Projects/project_1/voter.v}}
+reset_run synth_1
+launch_runs synth_1 -jobs 10
+wait_on_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 10
+wait_on_run impl_1
+export_ip_user_files -of_objects  [get_files {{C:/Users/26041/Desktop/Math Logic/Projects/project_1/remote.xdc}}] -no_script -reset -force -quiet
+remove_files  -fileset constrs_1 {{C:/Users/26041/Desktop/Math Logic/Projects/project_1/remote.xdc}}
+add_files -fileset constrs_1 -norecurse {{C:/Users/26041/Desktop/Math Logic/Projects/project_1/remote0.xdc}}
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 15
+wait_on_run impl_1

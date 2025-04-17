@@ -1,0 +1,53 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Sun Apr 13 21:28:11 2025
+# Process ID: 43868
+# Current directory: C:/Users/26041/Desktop/Math Logic/Projects/project_3
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent40676 C:\Users\26041\Desktop\Math Logic\Projects\project_3\project_3.xpr
+# Log file: C:/Users/26041/Desktop/Math Logic/Projects/project_3/vivado.log
+# Journal file: C:/Users/26041/Desktop/Math Logic/Projects/project_3\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/26041/Desktop/Math Logic/Projects/project_3/project_3.xpr}
+update_compile_order -fileset sources_1
+close [ open {C:/Users/26041/Desktop/Math Logic/Projects/project_3/project_3.srcs/constrs_1/new/remote_half.xdc} w ]
+add_files -fileset constrs_1 {{C:/Users/26041/Desktop/Math Logic/Projects/project_3/project_3.srcs/constrs_1/new/remote_half.xdc}}
+set_property is_enabled false [get_files  {{C:/Users/26041/Desktop/Math Logic/Projects/project_3/project_3.srcs/constrs_1/new/remote.xdc}}]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 15
+wait_on_run impl_1
+open_run impl_1
+close_design
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 15
+wait_on_run impl_1
+export_ip_user_files -of_objects  [get_files {{C:/Users/26041/Desktop/Math Logic/Projects/project_3/project_3.srcs/constrs_1/new/remote_half.xdc}}] -no_script -reset -force -quiet
+remove_files  -fileset constrs_1 {{C:/Users/26041/Desktop/Math Logic/Projects/project_3/project_3.srcs/constrs_1/new/remote_half.xdc}}
+file delete -force {C:/Users/26041/Desktop/Math Logic/Projects/project_3/project_3.srcs/constrs_1/new/remote_half.xdc}
+close [ open {C:/Users/26041/Desktop/Math Logic/Projects/project_3/project_3.srcs/constrs_1/new/adder_full.xdc} w ]
+add_files -fileset constrs_1 {{C:/Users/26041/Desktop/Math Logic/Projects/project_3/project_3.srcs/constrs_1/new/adder_full.xdc}}
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 15
+wait_on_run impl_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top full_adder [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 15
+wait_on_run impl_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top adder8 [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+set_property is_enabled false [get_files  {{C:/Users/26041/Desktop/Math Logic/Projects/project_3/project_3.srcs/constrs_1/new/adder_full.xdc}}]
+set_property is_enabled true [get_files  {{C:/Users/26041/Desktop/Math Logic/Projects/project_3/project_3.srcs/constrs_1/new/remote.xdc}}]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 15
+wait_on_run impl_1

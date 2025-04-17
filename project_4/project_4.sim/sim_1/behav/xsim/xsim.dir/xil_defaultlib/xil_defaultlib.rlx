@@ -1,0 +1,11 @@
+0.6
+2018.3
+Dec  7 2018
+00:33:28
+C:/Users/26041/Desktop/Math Logic/Projects/project_4/project_4.sim/sim_1/behav/xsim/glbl.v,1544155481,verilog,,,,glbl,,,,,,,,
+C:/Users/26041/Desktop/Math Logic/Projects/project_4/project_4.srcs/sim_1/new/top_plus_tb.v,1744905645,verilog,,,,top_plus_tb,,,,,,,,
+C:/Users/26041/Desktop/Math Logic/Projects/project_4/project_4.srcs/sources_1/imports/new/binary2bcd.v,1744813654,verilog,,C:/Users/26041/Desktop/Math Logic/Projects/project_4/project_4.srcs/sources_1/imports/new/dpy.v,,binary2bcd,,,,,,,,
+C:/Users/26041/Desktop/Math Logic/Projects/project_4/project_4.srcs/sources_1/imports/new/dpy.v,1744900250,verilog,,C:/Users/26041/Desktop/Math Logic/Projects/project_4/project_4.srcs/sources_1/new/sync_adder4.v,,dpy,,,,,,,,
+C:/Users/26041/Desktop/Math Logic/Projects/project_4/project_4.srcs/sources_1/new/adder8_sync.v,1744902953,verilog,,C:/Users/26041/Desktop/Math Logic/Projects/project_4/project_4.srcs/sources_1/imports/new/binary2bcd.v,,adder8_sync,,,,,,,,
+C:/Users/26041/Desktop/Math Logic/Projects/project_4/project_4.srcs/sources_1/new/sync_adder4.v,1744901644,verilog,,C:/Users/26041/Desktop/Math Logic/Projects/project_4/project_4.srcs/sources_1/new/top.v,,sync_adder4,,,,,,,,
+C:/Users/26041/Desktop/Math Logic/Projects/project_4/project_4.srcs/sources_1/new/top.v,1744904310,verilog,,C:/Users/26041/Desktop/Math Logic/Projects/project_4/project_4.srcs/sim_1/new/top_plus_tb.v,,top,,,,,,,,

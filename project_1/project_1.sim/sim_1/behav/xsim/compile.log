@@ -1,0 +1,9 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/26041/Desktop/Math Logic/Projects/project_1/voter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module voter
+INFO: [VRFC 10-2458] undeclared symbol h1, assumed default net type wire [C:/Users/26041/Desktop/Math Logic/Projects/project_1/voter.v:4]
+INFO: [VRFC 10-2458] undeclared symbol h2, assumed default net type wire [C:/Users/26041/Desktop/Math Logic/Projects/project_1/voter.v:5]
+INFO: [VRFC 10-2458] undeclared symbol h3, assumed default net type wire [C:/Users/26041/Desktop/Math Logic/Projects/project_1/voter.v:6]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/26041/Desktop/Math Logic/Projects/project_1/voter_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module voter_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/26041/Desktop/Math Logic/Projects/project_1/project_1.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
